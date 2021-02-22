@@ -18,6 +18,7 @@ build_script:
 - cmd: dotnet test ZbW.Testing.WpfSample.Client.IntegrationTests\ZbW.Testing.WpfSample.Client.IntegrationTests.csproj
 - cmd: dotnet test ZbW.Testing.WpfSample.Client.UnitTests\ZbW.Testing.WpfSample.Client.UnitTests.csproj
 - cmd: dotnet test ZbW.Testing.WpfSample.Libs.IpInfoInterface.IntegrationTests\ZbW.Testing.WpfSample.Libs.IpInfoInterface.IntegrationTests.csproj
+
 artifacts:
 - path: ZbW.Testing.WpfSample.Client\bin\$(configuration)\netcoreapp3.1
   name: ZbW.WpfSample
