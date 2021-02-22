@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.0-preview-20210127-04" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0-beta.1" />
     <PackageReference Include="Prism.Core" Version="8.0.0.1909" />
   </ItemGroup>
 
